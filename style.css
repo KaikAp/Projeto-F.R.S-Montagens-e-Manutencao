@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #181818;
+    margin:0px;
+
+}
+
+
+.header{
+    background-color: #121212;
+    border-bottom: 1px solid #ffc846;
+    
+}
+
+.header > img{
+    padding: 15px 0px 0px 20px;
+    width: 200px;
+}
+
+.user p{
+    color: #ffc846;
+    font-weight: 600;
+    float: right;
+    margin-top: 44px;
+    margin-right: 10px;
+
+
+}
+.user img{
+    width: 30px;
+    height: 31.5px;
+    float:right;
+    margin-top:35px;
+    margin-right: 50px;
+
+    padding:5px;
+    border-radius:50%;
+    border: 1px solid #ffc846;
+
+}
+ 
+
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight:600;
+    color:#ffc846;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    overflow: hidden;
+    background-color: #121212;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 200;
+    justify-content: space-around;
+    border: 0.01px solid #ffc846;
+
+}
+
+.navbar a:hover{
+    background-color: #ffc846;
+    color:#121212;
+
+}
+
+
+
+.main{
+    color:white;
+    font-size: 14px;
+    padding: 50px;
+}
+
+.banner{
+    font-size: 100px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background: #9f781e;
+    margin-top: -30px;
+}
+
+.main p{
+    padding:0px 10px;
+}
+
+
+.main h2{
+    color: #ffc846;
+    font-weight: 600;
+    padding: 0px 10px;
+    font-size: 2em;
+
+}
+
+.main hr, .rodape hr{
+    border: none;
+    height: 1px;
+    background-color: #ffc846;
+    margin:-10px -10px 10px -10px;
+  }
+
+
+.main p{
+    margin:20px 0px;
+}
+
+.sla{
+    width: 90%;
+    height: 350px;
+    background-color: #f7b415;
+    margin:100px -50px;
+}
+
+.coisa{
+    font-size: 5em;
+    text-align: center;
+}
+
+
+/* -- RODAPE -- */
+
+.rodape{
+    background-color: #121212;
+    border-top: solid 2px #ffc846 ;
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+
+.rodape img{
+    padding: 15px 0px 0px 20px;
+    width: 200px;
+}
+
+.rodape hr{
+    margin: 0px 100px;
+}
+.rodape h5{
+    color:#ffc846;
+    text-align: center;
+    font-weight: 500;
+    margin:0px;
+    padding: 30px 0px 20px 0px;
+}
+
+/* -- LOGIN -- */
+
+.loginblock{
+    color:#ffc846;
+    width: 400px;
+    height: 350px;
+    margin: 30px auto;
+    margin-top: 50px;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.loginblock h1{
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.loginblock p{
+    text-align: start;
+    font-size: 14px;
+    padding:0px;
+    margin:0px;
+    margin-top: 15px;
+    width: 100px;
+    position: relative;
+    left:50px;
+
+}
+
+.loginblock input[type="user"]{
+
+    color:white;
+    font-weight: 500;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #292929;
+    border:none;
+    outline:none;
+    margin:5px 0px;
+    padding: 7px 15px;
+    box-shadow: 0px 1.5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    
+}
+
+.loginblock input[type="password"]{
+    color:white;
+    font-weight: 500;
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #292929;
+    border:none;
+    outline:none;
+    margin:5px 0px;
+    padding: 7px 15px;
+    box-shadow: 0px 1.5px rgba(0, 0, 0, 0.297);
+    border-radius: 5px;
+
+}
+
+label{
+    font-size: 12px;
+    position: relative;
+    right: 65px;
+    padding: 10px 0px;
+    
+}
+
+.loginblock input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+
+
+
+
+button{
+    background-color: #ffc846;
+    font-size: 16px;
+    font-weight: 900;
+    position: flex;
+    
+    width: 130px;
+    height: 40px;
+    margin-top: 25px;
+    border:none;
+    box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+button:hover{
+    background-color: #121212;
+    border:1px solid #ffc846;
+    color:#ffc846;
+    cursor: pointer;
+}
+
+
+
+/* -- RASTREAMENTO -- */
+
+
+.tabela{
+    background-color: #292929;
+    width: 80%;
+    margin: 40px auto;
+}
+
+th{
+    background-color: #ffc846;
+    font-size: 18px;
+}
+
+td{
+    background-color: #292929;    
+    color:white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid #121212;
+    border-collapse: collapse;
+}
+
+
+
+.redessociais, .contato{
+    background-color: #1f1f1f;
+    width: 700px;
+    height: 300px;
+    padding: 0px;
+    font-weight: 600;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+h3{
+    font-size: 30px;
+    color: #ffc846;
+    text-align: center;
+    margin: 20px;
+}
+
+.contato{
+    font-size: 20px;
+    margin: 1;
+}
+
+.contato p{
+    margin: 10px 80px;
+}
+
+.icones i{
+    margin: 11px;
+    padding: 1.5px;
+    position: relative;
+    bottom: 140px;
+    left: 30px;
+}
+
+.redessociais{
+    text-align: center;
+    height: 150px;
+}
+
+.redessociais i{
+    font-size: 25px;
+
+}
